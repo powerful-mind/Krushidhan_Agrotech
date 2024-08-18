@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 100px;
+    background-color: rgb(255, 255, 239);
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.links {
+    width: 50%;
+    background-color: rgb(255, 255, 239);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 100px;
+    width: 300px;
+}
+
+.logo {
+    background-image: url(logo.png);
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 4px;
+    background-color:transparent;
+
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    transition: all 0.5s ease-in 0.1s;
+}
+/**box 2**/
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+
+.nav-search {
+    display:flex;
+    justify-content: space-evenly;
+    border:2px solid rgb(250, 250, 232);
+    border-radius: 4px;
+    width: 620px;
+    height: 35px;  
+}
+
+ .nav-search:hover {
+    border: 2px solid orange;
+    box-shadow: 20px 10px 5px lightgray;
+    transition: all 0.5s ease-in-out 0.1s;
+ }
+
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    border:none;
+    font-size: 1rem
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color:#0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+/** box4 */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+     font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.trans {
+    height: 40px;
+    width: 100px;
+    border: 1.5px solid  rgb(255, 255, 239);
+    color:black; 
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.trans:hover {
+    border: 1.5px solid lightblue;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease-in 0.1s;
+    background-color: lightblue;
+    box-shadow:5px 5px 5px lightgray;
+}
+
+
+/**panel**/
+
+.panel {
+    height: 40px;
+    background-image:linear-gradient(to right, #2d3a56 45% , white);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.panel-all a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.panel-ops a {
+    display: inline;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.panel-ops {
+    width:70%;
+    font-size: 0.85rem;
+    font-weight: 400;
+    
+}
+
+.panel-deals {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*hero section*/
+
+.hero-section {
+    background-image: url(farm.jpg);
+    height: 475px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-section a {
+    text-decoration: none;
+}
+
+.hero-msg {
+    background-color: rgb(255, 255, 255,0.4);
+    backdrop-filter: blur(2px);
+    color: black;
+    border: 1.5px solid transparent;
+    border-radius: 30px;
+    height: 450px;
+    width: 500px;
+    font-size: 0.9rem;
+    margin: 15px 150px 25px;
+    text-align: center;
+}
+
+.hero-msg:hover {
+    transition: all 0.5s ease-in 0s;
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.hero-title {
+    height: 60px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #34568b;
+}
+
+.hero-content {
+    line-height: 1.8;
+    margin: 20px 20px 20px 20px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/**shop-section**/
+.shop-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(to right , lightskyblue, rgb(247, 244, 244))
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 1.5px solid transparent;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255,0.4);
+    backdrop-filter: blur(1px);
+    padding: 20px 0px 15px;
+}
+
+.box:hover {
+    transition: all 0.5s ease-in 0s;
+    transform: scale(1.03);
+    box-shadow: 5px 3px 5px gray;
+}
+
+.box-img {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.box-content a{
+    text-align: center;
+    text-decoration: none;
+    color: #007185;
+}
+
+/*footer*/
+
+.foot-panel1 {
+    background:linear-gradient(to right, #2d3a56 60% , white);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.foot-panel3 {
+    height: 80px;
+    background-color: #1e2121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pages {
+    font-size: 0.7rem;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+}
+
+.copy {
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+
+.copy a {
+    text-decoration: none;
+    color: white;
+}
+

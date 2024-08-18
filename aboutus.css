@@ -1,0 +1,51 @@
+/*hero section*/
+* {
+    margin: 0px;
+}
+.hero-section {
+    background-image: url(aboutusback.jpg);
+    height: 800px;
+    width: 1550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-msg {
+    background-color: rgb(255, 255, 255,0.4);
+    backdrop-filter: blur(7px);
+    color: black;
+    border: 1.5px solid transparent;
+    border-radius: 40px;
+    height: 600px;
+    width: 600px;
+    font-size: 0.9rem;
+    margin: 15px 150px 25px;
+    text-align: center;
+}
+
+/*.hero-msg:hover {
+    transition: all 0.5s ease-in 0s;
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px gray;
+}*/
+
+.hero-title {
+    height: 60px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #34568b;
+}
+
+.hero-content {
+    line-height: 1.8;
+    margin: 20px 50px 20px 50px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
